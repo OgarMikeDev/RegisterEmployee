@@ -8,7 +8,7 @@ import java.util.Date;
 @Controller
 public class DefaultController {
 
-    @RequestMapping("/page")
+    @RequestMapping("/")
     public String index() {
         return "index";
     }
